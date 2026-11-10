@@ -13,7 +13,11 @@ association test, with and without ancestry correction → Manhattan and QQ plot
 
 ## Results
 
-<!-- paste the summary printed by the last notebook cell here -->
+On 1000 Genomes chromosome 22 (2,504 people), quality control kept 170,052 of 1,055,454 SNPs.
+PCA separated the continents, and South Asians fell between Europeans and East Asians.
+With a simulated trait containing 10 true SNPs plus an ancestry effect:
+  - without ancestry correction: lambda = 44.5, 63484 SNPs below 5e-8
+  - with 10 PCs as covariates:   lambda = 1.11, 367 SNPs below 5e-8, true SNPs found: 6/10
 
 All plots are in the notebook.
 
